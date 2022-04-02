@@ -5,14 +5,14 @@
     "env": {
         "ID": {
             "description": "UUID",
-            "value": "ad806487-2d26-4636-98b6-ab85cc8521f7"
+            "value": "33eb9a5f-8e67-478a-bf7b-fa341a4e2f27"
         },
         "WSPATH": {
             "description": "WebSocket Path",
             "value": "/"
         }
     },
-    "website": "https://ibcl.us/Heroku-V2Ray_20191014/",
+    "website": "https://id/",
     "repository": "https://github.com/d2denis/poguawa",
     "stack": "container"
 }
