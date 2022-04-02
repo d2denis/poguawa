@@ -9,18 +9,18 @@ DIR_TMP="$(mktemp -d)"
 cat << EOF > ${DIR_TMP}/heroku.json
 {
     "inbounds": [{
-        "port": ${PORT},
+        "port": 8880,
         "protocol": "vmess",
         "settings": {
             "clients": [{
-                "id": "${ID}",
-                "alterId": 0
+                "id": "b4c8e894-8b1c-4d7a-a990-b50f18368fb4",
+                "alterId": 2
             }]
         },
         "streamSettings": {
             "network": "ws",
             "wsSettings": {
-                "path": "${WSPATH}"
+                "path": "/sockets"
             }
         }
     }],
